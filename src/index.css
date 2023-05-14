@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.user-card {
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+.form-user {
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+.delete-user {
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+@media screen and (max-width: 320px) {
+  .form-user {
+    height: 410px;
+    overflow: scroll;
+  }
+}
